@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hcontainer{
+    height: 70px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+}
+.header{
+    background-color: #fff;
+}
+.h1{
+    flex: 0.2;
+}
+.h1-img{
+    height: 71px;
+    width: 60px;
+    padding-left: 3px;
+    background-color: #0068b5;
+    cursor: pointer;
+}
+.h2{
+    
+    flex: 1;
+}
+.h2 ul{
+    display: flex;
+    list-style: none;
+    margin-top: 28px;
+}
+.h2 ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    color: #0068b5;
+    font-weight: 100;
+}
+.h3{
+    
+    flex: 0.4;
+    display: flex;
+    padding-top: 20PX;
+    padding-left: 300PX;
+}
+.h3-signin{
+    height: 22px;
+    width: 22px;
+    margin-right: 20PX;
+    cursor: pointer;
+}
+.h3-language-selection{
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.h3 h6{
+    margin-top: 5px;
+    color: #0068b5;
+    font-weight: 100;
+    cursor: pointer;
+}
+.h4{
+    background-color: #F3F3F3;
+    flex: 0.4;
+    display: flex;
+}
+.fa-search{
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #0068b5;
+    cursor: pointer;
+}
+.h4 h5{
+    font-weight: 100;
+    font-size: 100%;
+    margin-top: 24px;
+    margin-left: 5px;
+}
+.first-section{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/homepage-marquee-bg-blue-steel.jpg.rendition.intel.web.1072.603.jpg);
+    display: flex;
+}
+.first-section-1{
+    width: 400px;
+    height: 300px;
+    background-color: #41728A;
+    margin-top: 115px;
+    margin-left: 110px;
+    position: relative;
+    padding-left: 42px;
+
+    
+
+}
+.first-section-1-heading{
+    font-size: 220%;
+    line-height: 1.2;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    margin: 0px 0px 0.5rem; 
+    position: absolute;   
+    color: white;
+    font-weight: 200;
+    
+}
+.first-section-1-para{
+    position: absolute;
+    top: 100px;
+    color: white;
+    font-size: 110%;
+    font-weight: 100;
+}
+
+
+.first-section-1-btn{
+    position: absolute;
+    top: 225px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    background-color: #fff;
+    color: #0068b5;
+    
+}
+
+.first-section-2{
+    width: 680px;
+    height: 345px;
+    background-color: burlywood;
+    margin-top: 77px;
+    background-image: url(male-working-remotely-video-connference.jpg.rendition.intel.web.576.324.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+.first-section-bottom{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    margin-top: 27px;
+    position: relative;
+    
+}
+.first-section-bottom-small-div{
+    height: 40px;
+    width: 40px;
+    background-color: #0068b5;
+    position: absolute;
+    left: 70px;
+    top: -13px;
+
+}
+.second-section{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  
+    
+    
+    
+}
+.second-section ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-right: 70px;
+    font-size: 110%
+  
+}
+.second-section ul li{
+    margin-left: 100px;
+    cursor: pointer;
+    font-weight: 100;
+}
+.third-section{
+    height: 1050px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.third-section-left{
+    height: 950px;
+    width: 28%;
+    background-color: #fff;
+    order: 1;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.third-section-left-top{
+    height: 48%;
+    width: 100%;
+    background-color: #F3F3F3;
+    cursor: pointer;
+}
+.third-section-left-top-img{
+    width: 100%;
+    height: 50%;
+    background-color: #F3F3F3;
+    background-image: url(images/nuc-13-pro-office-slim-rwd.jpg.rendition.intel.web.480.360.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.third-section-left-top-text{
+    width: auto;
+    height: auto;
+    background-color: #F3F3F3;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.third-section-left-top-text h3{
+    margin-top: 10px;
+}
+.third-section-left-top-text p{
+    margin-top: 5px;
+}
+.third-section-left-bottom{
+    height: 48%;
+    width: 100%;
+    background-color: #F3F3F3;
+    cursor: pointer;
+}
+.third-section-left-bottom-img{
+    width: 100%;
+    height: 50%;
+    background-color: #F3F3F3;
+    background-image: url(images/left-bottom.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.third-section-left-bottom-text{
+    width: auto;
+    height: auto;
+    background-color: #F3F3F3;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.third-section-left-bottom-text h3{
+    margin-top: 10px;
+}
+.third-section-left-bottom-text p{
+    margin-top: 5px;
+}
+.third-section-center{
+    height: 880px;
+    width: 32%;
+    background-color: #F3F3F3;
+    order: 2;
+    cursor: pointer;
+}
+.third-section-center-top{
+    height: 60%;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+.third-section-center-top-img{
+    height: 70%;
+    width: 100%;
+    background-image: url(images/center-top-img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.third-section-center-top-text h3{
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.third-section-center-top-text{
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.third-section-center-bottom{
+    height: 40%;
+    width: 100%;
+    background-color: #F3F3F3;
+    display: flex;
+}
+.third-section-center-bottom-left{
+    height: 100%;
+    width: 40%;
+}
+.third-section-center-bottom-left-img-1{
+    height: 150px;
+    width: 150px;
+    background-color: #F3F3F3;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-image: url(images/center-bottom-1.jpg);
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.third-section-center-bottom-left-img-2{
+    height: 150px;
+    width: 150px;
+    background-color: #F3F3F3;
+    margin-left: 10px;
+    background-image: url(images/center-bottom-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.third-section-center-bottom-right{
+    height: 100%;
+    width: auto;
+    background-color: #F3F3F3;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.third-section-center-bottom-right h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.third-section-right{
+    height: 950px;
+    width: 28%;
+    background-color: #fff;
+    order: 3;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.third-section-right-top{
+    height: 48%;
+    width: 100%;
+    background-color: #F3F3F3;
+    cursor: pointer;
+}
+.third-section-right-top-img{
+    width: 100%;
+    height: 50%;
+    background-color: #F3F3F3;
+    background-image: url(images/right-top.png);
+    background-position: center;
+    background-size: cover;
+}
+.third-section-right-top-text{
+    width: auto;
+    height: auto;
+    background-color: #F3F3F3;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.third-section-right-top-text h3{
+    margin-top: 10px;
+}
+.third-section-right-top-text p{
+    margin-top: 5px;
+}
+.third-section-right-bottom{
+    height: 48%;
+    width: 100%;
+    background-color: #F3F3F3;
+    cursor: pointer;
+}
+.third-section-right-bottom-img{
+    width: 100%;
+    height: 50%;
+    background-color: #F3F3F3;
+    background-image: url(images/right-bottom.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+.third-section-right-bottom-text{
+    width: auto;
+    height: auto;
+    background-color: #F3F3F3;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.third-section-right-bottom-text h3{
+    margin-top: 10px;
+}
+.third-section-right-bottom-text p{
+    margin-top: 5px;
+}
+.third-section-heading{
+    color: #0068b5;
+    font-weight: 400;
+}
+.footer-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+
+}
+.f-left{
+    width: 20%;
+    height: 411px;
+    background-color: #41728A;
+}
+.footer-img{
+    width: 90px;
+    margin-top: 200px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.f-right{
+    width: 80%;
+    height: 400px;
+    background-color: aqua;
+}
+.f-right-1{
+    width: 100%;
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    padding-top: 45px;
+}
+.f-right-1 ul{
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+.f-right-1 ul li{
+    
+    cursor: pointer;
+    margin-left: 20px;
+}
+.f-right-1 ul li:hover{
+    text-decoration: underline;
+}
+.publicpolicy{
+    margin-top: -60px;
+}
+.publicpolicy h4{
+    font-weight: 300;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.publicpolicy h4:hover{
+    text-decoration: underline;
+}
+
+.f-right-2{
+    width: 100%;
+    height: 60px;
+    background-color: chartreuse;
+    padding-top: 45px;
+
+}
+.f-right-2 ul{
+    list-style: none;
+    display: flex;
+
+}
+.f-right-2 ul li{
+    margin-left: 30px;
+}
+.fa-facebook {
+    color: black;
+    text-decoration: none;   
+}
+  
+.fa-twitter {
+    color: black;
+    text-decoration: none;
+}
+.fa-linkedin {
+    color: black;
+    text-decoration: none;
+  }
+  
+.fa-youtube {
+    color: black;
+    text-decoration: none;
+}
+.fa-instagram {
+    color: black;
+    text-decoration: none;
+  }
+
+.f-right-3{
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+}
+.f-right-3 ul{
+    list-style: none;
+    display: flex;
+}
+.f-right-3 ul li{
+    margin-left: 20px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.f-right-3 ul li:hover{
+    text-decoration: underline;
+}
+#intel-corporation{
+    border-left: none;
+}
+.f-right-4{
+    width: 100%;
+    height: 150px;
+    background-color: chartreuse;
+}
+.f-right-4 p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 20px;
+    margin-left: 28px;
+}
+.footer{
+    background-color: #f3f3f3;
+}
